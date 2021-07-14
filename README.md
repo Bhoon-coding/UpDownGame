@@ -12,3 +12,6 @@
 ### 사용기술
 - Swift
 - UIkit
+
+#### 참고 
+https://yagom.net/courses/ios-starter-uikit/
