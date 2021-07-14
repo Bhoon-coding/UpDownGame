@@ -33,12 +33,17 @@ class ViewController: UIViewController {
     }
     
     func showAlert(message: String) {
-        let alert = UIAlertController.init(title: nil, message: message, preferredStyle: .alert)
-        let okAction = UIAlertAction(title: "OK", style: .default) { (action) in
-            self.reset()
+        let alert = UIAlertController.init(title: nil,
+                                           message: message,
+                                           preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "OK",
+                                     style: .default) { (action) in
+                                     self.reset()
         }
         alert.addAction(okAction)
-        present(alert, animated: true, completion: nil)
+        present(alert,
+                animated: true,
+                completion: nil)
     }
     
     @IBAction func touchUpHitButton(_ sender: UIButton) {
